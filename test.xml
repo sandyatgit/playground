@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ns1:orderingServices xmlns:ns1="http://ws.interfaces.sessions.APILink.amdocs" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <in0 href="#id0" />
+            <in1 href="#id1" />
+            <in2 href="#id2" />
+            <in3 href="#id3" />
+            <header href="#id4" />
+        </ns1:orderingServices>
+        <multiRef xmlns:ns2="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id1" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:SubscriberApiInfo">
+            <activationPINInfo xsi:type="ns2:ActivationPINInfo" xsi:nil="true" />
+            <activityInfo xsi:type="ns2:ActivityInfo" xsi:nil="true" />
+            <addressInfo href="#id5" />
+            <changedSocInfo xsi:type="ns2:SocInfo" xsi:nil="true" />
+            <commitmentInfo xsi:type="ns2:CommitmentInfo" xsi:nil="true" />
+            <directConnectInfo xsi:type="ns2:DirectConnectInfo" xsi:nil="true" />
+            <equipmentApiInfo xsi:type="ns2:EquipmentApiInfo" xsi:nil="true" />
+            <externalSystemInfo href="#id6" />
+            <featureApiInfo xsi:type="ns2:FeatureApiInfo" xsi:nil="true" />
+            <frequencyPeriodInfo xsi:type="ns2:FrequencyPeriodInfo" xsi:nil="true" />
+            <ldcInfo xsi:type="ns2:LdcInfo" xsi:nil="true" />
+            <memoInfo href="#id7" />
+            <nameInfo xsi:type="ns2:NameInfo" xsi:nil="true" />
+            <networkInfo href="#id8" />
+            <newPricePlanInfo href="#id9" />
+            <newSocInfo soapenc:arrayType="ns2:NewSocInfo[0]" xsi:type="soapenc:Array" />
+            <otherSpDetail xsi:type="ns2:OtherSpDetail" xsi:nil="true" />
+            <paperWorkInfo xsi:type="ns2:PaperWorkInfo" xsi:nil="true" />
+            <portinInfo xsi:type="ns2:PortinInfo" xsi:nil="true" />
+            <prePaidPlanPolicyInfo xsi:type="ns2:PrePaidPlanPolicyInfo" xsi:nil="true" />
+            <resourceApiInfo href="#id10" />
+            <ssitInfo xsi:type="ns2:SsitInfo" xsi:nil="true" />
+            <subAdditionalInfo href="#id11" />
+            <subscriberRelationInfo xsi:type="ns2:SubscriberRelationInfo" xsi:nil="true" />
+            <trnInfo xsi:type="ns2:TRNApiInfo" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns3="http://v1.CommonHeader.awsi.amdocs.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id4" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns3:CommonHeader">
+            <applicationContext xsi:type="ns3:CHApplicationContext" xsi:nil="true" />
+            <callback xsi:type="ns3:CHCallback" xsi:nil="true" />
+            <conversation xsi:type="ns3:CHConversation" xsi:nil="true" />
+            <credentials href="#id12" />
+            <exception xsi:type="ns3:CHException" xsi:nil="true" />
+            <messageContext xsi:type="ns3:CHMessageContext" xsi:nil="true" />
+            <simulated xsi:type="xsd:boolean" xsi:nil="true" />
+            <txContext xsi:type="ns3:CHTxContext" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns4="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id0" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns4:BanInfo">
+            <additionalImsi xsi:type="xsd:string" xsi:nil="true" />
+            <banId href="#id13" />
+            <enrollmentSub xsi:type="xsd:boolean" xsi:nil="true" />
+            <equipmentId xsi:type="xsd:string" xsi:nil="true" />
+            <hppttId xsi:type="xsd:string" xsi:nil="true" />
+            <imsi xsi:type="xsd:string" xsi:nil="true" />
+            <ip xsi:type="xsd:string" xsi:nil="true" />
+            <msoInfo xsi:type="ns4:MSOInfo" xsi:nil="true" />
+            <nai xsi:type="xsd:string" xsi:nil="true" />
+            <numOfActiveSubs xsi:type="xsd:int" xsi:nil="true" />
+            <numOfSuspendedSubs xsi:type="xsd:int" xsi:nil="true" />
+            <ptn xsi:type="xsd:string" xsi:nil="true" />
+            <subId xsi:type="xsd:string" xsi:nil="true" />
+            <timeStampInfo xsi:type="ns4:TimeStampInfo" xsi:nil="true" />
+            <ufmi xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns5="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id3" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns5:ApplicationDataInfo">
+            <aplicationID xsi:type="xsd:string" xsi:nil="true" />
+            <applicationID xsi:type="xsd:string">PORTAL</applicationID>
+            <applicationTxnID xsi:type="xsd:string" xsi:nil="true" />
+            <applicationUser xsi:type="xsd:string" xsi:nil="true" />
+            <associateId xsi:type="xsd:string" xsi:nil="true" />
+            <storeId xsi:type="xsd:string" xsi:nil="true" />
+            <userID xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns6="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id2" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns6:SubscriberMultiLinesInfo">
+            <actionModeLineInd xsi:type="xsd:string">I</actionModeLineInd>
+            <orderType xsi:type="xsd:string">Y</orderType>
+            <ptnForRemove xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns7="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id11" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns7:SubAdditionalInfo">
+            <birthDate xsi:type="xsd:string" xsi:nil="true" />
+            <btmCmSubNo xsi:type="xsd:int" xsi:nil="true" />
+            <cdmaSubIndex xsi:type="xsd:string" xsi:nil="true" />
+            <cmSubNo xsi:type="xsd:int" xsi:nil="true" />
+            <cnam xsi:type="xsd:string" xsi:nil="true" />
+            <communicationMethod xsi:type="xsd:byte" xsi:nil="true" />
+            <communicationValue xsi:type="xsd:string" xsi:nil="true" />
+            <dealerAgent xsi:type="xsd:string">AMSLFSRV</dealerAgent>
+            <depositHandlingCode xsi:type="xsd:byte" xsi:nil="true" />
+            <emailAddress xsi:type="xsd:string" xsi:nil="true" />
+            <languageCode xsi:type="xsd:string" xsi:nil="true" />
+            <location xsi:type="xsd:string" xsi:nil="true" />
+            <messageLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <oarssInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <optInOutInd xsi:type="xsd:string" xsi:nil="true" />
+            <otherLanguage xsi:type="xsd:string" xsi:nil="true" />
+            <personalBan xsi:type="xsd:int" xsi:nil="true" />
+            <promoDealer xsi:type="xsd:string" xsi:nil="true" />
+            <promoDealerDate xsi:type="xsd:string" xsi:nil="true" />
+            <securityLockCode xsi:type="xsd:string" xsi:nil="true" />
+            <subArea xsi:type="xsd:string" xsi:nil="true" />
+            <termsAndCondtitonsInd xsi:type="xsd:byte" xsi:nil="true" />
+            <welcomeLetterInd xsi:type="xsd:byte" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns8="http://v1.CommonHeader.awsi.amdocs.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id12" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns8:CHCredentials">
+            <password xsi:type="xsd:string">unix11</password>
+            <ticket xsi:type="xsd:string" xsi:nil="true" />
+            <userName xsi:type="xsd:string">64440008</userName>
+        </multiRef>
+        <multiRef xmlns:ns9="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id10" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns9:ResourceAPIInfo">
+            <CSALeaf xsi:type="xsd:string" xsi:nil="true" />
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <addnImsiExist xsi:type="xsd:int" xsi:nil="true" />
+            <addnImsiTrxact xsi:type="xsd:byte" xsi:nil="true" />
+            <allocRsrc xsi:type="xsd:long" xsi:nil="true" />
+            <cellAction xsi:type="xsd:string" xsi:nil="true" />
+            <cfSocRequired xsi:type="xsd:byte" xsi:nil="true" />
+            <dispatchAction xsi:type="xsd:string" xsi:nil="true" />
+            <hpPttResourceInd xsi:type="xsd:byte" xsi:nil="true" />
+            <hpPttResourceSts xsi:type="xsd:byte" xsi:nil="true" />
+            <hppttAction xsi:type="xsd:string" xsi:nil="true" />
+            <hppttExist xsi:type="xsd:int" xsi:nil="true" />
+            <hppttId xsi:type="xsd:string" xsi:nil="true" />
+            <hppttTrxact xsi:type="xsd:byte" xsi:nil="true" />
+            <imsiAction xsi:type="xsd:string" xsi:nil="true" />
+            <imsiExist xsi:type="xsd:int" xsi:nil="true" />
+            <imsiInfo xsi:type="ns9:ImsiInfo" xsi:nil="true" />
+            <imsiTrxact xsi:type="xsd:byte" xsi:nil="true" />
+            <ipExist xsi:type="xsd:int" xsi:nil="true" />
+            <ipInfo xsi:type="ns9:IpInfo" xsi:nil="true" />
+            <ipTrxact xsi:type="xsd:byte" xsi:nil="true" />
+            <isRelatedSub xsi:type="xsd:boolean" xsi:nil="true" />
+            <naiAction xsi:type="xsd:string" xsi:nil="true" />
+            <naiExist xsi:type="xsd:int" xsi:nil="true" />
+            <naiInfo xsi:type="ns9:NAIInfo" xsi:nil="true" />
+            <naiTrxact xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns9:NpaNxxInfo" xsi:nil="true" />
+            <packetDataAction xsi:type="xsd:string" xsi:nil="true" />
+            <ptnExist xsi:type="xsd:int" xsi:nil="true" />
+            <ptnInfo href="#id14" />
+            <ptnTrxact xsi:type="xsd:byte" xsi:nil="true" />
+            <reasonCode xsi:type="xsd:string" xsi:nil="true" />
+            <relatedSub xsi:type="xsd:boolean" xsi:nil="true" />
+            <resourceType xsi:type="xsd:byte" xsi:nil="true" />
+            <rmActcd xsi:type="xsd:short" xsi:nil="true" />
+            <ufmiExist xsi:type="xsd:int" xsi:nil="true" />
+            <ufmiInfo xsi:type="ns9:UfmiInfo" xsi:nil="true" />
+            <ufmiRetainInd xsi:type="xsd:byte" xsi:nil="true" />
+            <ufmiTrxact xsi:type="xsd:byte" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id13" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="xsd:int">648950035</multiRef>
+        <multiRef xmlns:ns10="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id6" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns10:ExternalSystemInfo">
+            <externalMessageId xsi:type="xsd:string" xsi:nil="true" />
+            <externalStoreId xsi:type="xsd:string">311569600</externalStoreId>
+        </multiRef>
+        <multiRef xmlns:ns11="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id8" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns11:NetworkInfo">
+            <networkInd href="#id15" />
+        </multiRef>
+        <multiRef xmlns:ns12="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id5" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns12:AddressInfo">
+            <adrFieldedIndDsp xsi:type="xsd:byte" xsi:nil="true" />
+            <adrUpType xsi:type="xsd:byte" xsi:nil="true" />
+            <apartmentNumber xsi:type="xsd:string" xsi:nil="true" />
+            <apartmentType xsi:type="xsd:string" xsi:nil="true" />
+            <applyAddress xsi:type="xsd:byte" xsi:nil="true" />
+            <attention xsi:type="xsd:string" xsi:nil="true" />
+            <bpSeqNo xsi:type="xsd:int" xsi:nil="true" />
+            <city xsi:type="xsd:string" xsi:nil="true" />
+            <compressedAddress xsi:type="xsd:string" xsi:nil="true" />
+            <country xsi:type="xsd:string" xsi:nil="true" />
+            <county xsi:type="xsd:string" xsi:nil="true" />
+            <direction xsi:type="xsd:string" xsi:nil="true" />
+            <line1 xsi:type="xsd:string" xsi:nil="true" />
+            <line2 xsi:type="xsd:string" xsi:nil="true" />
+            <linkSeqNo xsi:type="xsd:int" xsi:nil="true" />
+            <mediaCategory xsi:type="xsd:string" xsi:nil="true" />
+            <number xsi:type="xsd:string" xsi:nil="true" />
+            <poBoxNumber xsi:type="xsd:string" xsi:nil="true" />
+            <ruralRoute xsi:type="xsd:string" xsi:nil="true" />
+            <ruralRouteBoxNumber xsi:type="xsd:string" xsi:nil="true" />
+            <state xsi:type="xsd:string" xsi:nil="true" />
+            <streetName xsi:type="xsd:string" xsi:nil="true" />
+            <streetType xsi:type="xsd:string" xsi:nil="true" />
+            <trailing xsi:type="xsd:string" xsi:nil="true" />
+            <type xsi:type="xsd:byte" xsi:nil="true" />
+            <zipCode xsi:type="xsd:string">78759</zipCode>
+            <zipCode4 xsi:type="xsd:string" xsi:nil="true" />
+            <zipGeoCode xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns13="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id7" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns13:MemoInfo">
+            <actCode xsi:type="xsd:string" xsi:nil="true" />
+            <actDate xsi:type="xsd:string" xsi:nil="true" />
+            <actReason xsi:type="xsd:string" xsi:nil="true" />
+            <activityDealer xsi:type="xsd:string" xsi:nil="true" />
+            <actvFee xsi:type="xsd:double" xsi:nil="true" />
+            <category xsi:type="xsd:string" xsi:nil="true" />
+            <createdBy xsi:type="xsd:int" xsi:nil="true" />
+            <createdByShortName xsi:type="xsd:string" xsi:nil="true" />
+            <creationDate xsi:type="xsd:string" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <externalIssueDateTime xsi:type="xsd:string" xsi:nil="true" />
+            <externalUserID xsi:type="xsd:string" xsi:nil="true" />
+            <ip xsi:type="xsd:string" xsi:nil="true" />
+            <memoAmt xsi:type="xsd:double" xsi:nil="true" />
+            <memoBan xsi:type="xsd:int" xsi:nil="true" />
+            <memoCtn xsi:type="xsd:string" xsi:nil="true" />
+            <memoId xsi:type="xsd:double" xsi:nil="true" />
+            <memoParameters xsi:type="xsd:string" xsi:nil="true" />
+            <memoProductType xsi:type="xsd:byte" xsi:nil="true" />
+            <memoSource href="#id16" />
+            <p1 xsi:type="xsd:string" xsi:nil="true" />
+            <p10 xsi:type="xsd:string" xsi:nil="true" />
+            <p2 xsi:type="xsd:string" xsi:nil="true" />
+            <p3 xsi:type="xsd:string" xsi:nil="true" />
+            <p4 xsi:type="xsd:string" xsi:nil="true" />
+            <p5 xsi:type="xsd:string" xsi:nil="true" />
+            <p6 xsi:type="xsd:string" xsi:nil="true" />
+            <p7 xsi:type="xsd:string" xsi:nil="true" />
+            <p8 xsi:type="xsd:string" xsi:nil="true" />
+            <p9 xsi:type="xsd:string" xsi:nil="true" />
+            <paramCount xsi:type="xsd:int" xsi:nil="true" />
+            <ptn xsi:type="xsd:string" xsi:nil="true" />
+            <rmsActCode xsi:type="xsd:string" xsi:nil="true" />
+            <rowCount xsi:type="xsd:int" xsi:nil="true" />
+            <systemText xsi:type="xsd:string" xsi:nil="true" />
+            <textLen xsi:type="xsd:int" xsi:nil="true" />
+            <type xsi:type="xsd:string" xsi:nil="true" />
+            <ufmi xsi:type="xsd:string" xsi:nil="true" />
+            <userText xsi:type="xsd:string" xsi:nil="true" />
+            <waiveInd xsi:type="xsd:byte" xsi:nil="true" />
+            <waiveReason xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns14="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id9" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns14:NewSocInfo">
+            <newPpSocInfo href="#id17" />
+            <newSocInfo xsi:type="ns14:SocInfo" xsi:nil="true" />
+            <otherSocInfo xsi:type="ns14:SocInfo" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id15" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="xsd:byte">71</multiRef>
+        <multiRef xmlns:ns15="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id17" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns15:SocInfo">
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <autoRenewalInd xsi:type="xsd:byte" xsi:nil="true" />
+            <banLevelProhibitedInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <celFtrInd xsi:type="xsd:byte" xsi:nil="true" />
+            <convRunNo xsi:type="xsd:short" xsi:nil="true" />
+            <cutDate xsi:type="xsd:string" xsi:nil="true" />
+            <cycleBoundInd xsi:type="xsd:byte" xsi:nil="true" />
+            <dailyRcInd xsi:type="xsd:byte" xsi:nil="true" />
+            <dcFtrInd xsi:type="xsd:byte" xsi:nil="true" />
+            <dealerCode xsi:type="xsd:string">AMSLFSRV</dealerCode>
+            <dependEquipInd xsi:type="xsd:byte" xsi:nil="true" />
+            <deployInd xmlns:ns16="http://awsi.amdocs.com" xsi:type="ns16:char" xsi:nil="true" />
+            <deploySocInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <duration xsi:type="xsd:int" xsi:nil="true" />
+            <durationInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <effectiveIssueDate xsi:type="xsd:string" xsi:nil="true" />
+            <equipDependInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationIssueDate xsi:type="xsd:string" xsi:nil="true" />
+            <fairFlexPlanType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureApiInfo soapenc:arrayType="ns15:FeatureApiInfo[29]" xsi:type="soapenc:Array">
+                <featureApiInfo href="#id18" />
+                <featureApiInfo href="#id19" />
+                <featureApiInfo href="#id20" />
+                <featureApiInfo href="#id21" />
+                <featureApiInfo href="#id22" />
+                <featureApiInfo href="#id23" />
+                <featureApiInfo href="#id24" />
+                <featureApiInfo href="#id25" />
+                <featureApiInfo href="#id26" />
+                <featureApiInfo href="#id27" />
+                <featureApiInfo href="#id28" />
+                <featureApiInfo href="#id29" />
+                <featureApiInfo href="#id30" />
+                <featureApiInfo href="#id31" />
+                <featureApiInfo href="#id32" />
+                <featureApiInfo href="#id33" />
+                <featureApiInfo href="#id34" />
+                <featureApiInfo href="#id35" />
+                <featureApiInfo href="#id36" />
+                <featureApiInfo href="#id37" />
+                <featureApiInfo href="#id38" />
+                <featureApiInfo href="#id39" />
+                <featureApiInfo href="#id40" />
+                <featureApiInfo href="#id41" />
+                <featureApiInfo href="#id42" />
+                <featureApiInfo href="#id43" />
+                <featureApiInfo href="#id44" />
+                <featureApiInfo href="#id45" />
+                <featureApiInfo href="#id46" />
+            </featureApiInfo>
+            <hierarchyCode xsi:type="xsd:byte" xsi:nil="true" />
+            <hppttActCd xsi:type="xsd:byte" xsi:nil="true" />
+            <hppttProSocInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <minimumNoMonths xsi:type="xsd:short" xsi:nil="true" />
+            <ocRate xsi:type="xsd:double" xsi:nil="true" />
+            <offerId xsi:type="xsd:int" xsi:nil="true" />
+            <pdsFtrInd xsi:type="xsd:byte" xsi:nil="true" />
+            <premiumInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pricePlanInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string">50</pricePlanSocCode>
+            <prmtRowid xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <rcRate xsi:type="xsd:double" xsi:nil="true" />
+            <rcTaxExcludeInd xsi:type="xsd:byte" xsi:nil="true" />
+            <relatedEquipment xsi:type="xsd:byte" xsi:nil="true" />
+            <relatedInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <relatedSoc xsi:type="xsd:string" xsi:nil="true" />
+            <relatedSocSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <riscInd xsi:type="xsd:byte" xsi:nil="true" />
+            <salesEffectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <salesExpirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <shareType xsi:type="xsd:byte" xsi:nil="true" />
+            <socEffectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <socLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <socRowid xsi:type="xsd:string" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <splitDealerCode xsi:type="xsd:string" xsi:nil="true" />
+            <srvMode xsi:type="xsd:byte" xsi:nil="true" />
+            <srvSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <subMarket xsi:type="xsd:string" xsi:nil="true" />
+            <waivedReason xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns17="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id14" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns17:PtnInfo">
+            <lineNumber xsi:type="xsd:string" xsi:nil="true" />
+            <method href="#id47" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <numberLocation xsi:type="xsd:string">REG</numberLocation>
+            <piPtn xsi:type="xsd:string" xsi:nil="true" />
+            <portinLN xsi:type="xsd:string" xsi:nil="true" />
+            <portinNpa xsi:type="xsd:string" xsi:nil="true" />
+            <portinNxx xsi:type="xsd:string" xsi:nil="true" />
+            <portinPtn xsi:type="xsd:string" xsi:nil="true" />
+            <ptnNumber xsi:type="xsd:string" xsi:nil="true" />
+            <ptnStatus xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnType xsi:type="xsd:string">RGL</ptnType>
+            <rateCenter xsi:type="xsd:string" xsi:nil="true" />
+            <recoveryPtn xsi:type="xsd:string" xsi:nil="true" />
+            <reservationId xsi:type="xsd:string" xsi:nil="true" />
+            <subMarket xsi:type="xsd:string" xsi:nil="true" />
+            <tmpCount xsi:type="xsd:int" xsi:nil="true" />
+            <tmpNgp xsi:type="xsd:string" xsi:nil="true" />
+            <tmpNpa xsi:type="xsd:string" xsi:nil="true" />
+            <tmpNxx xsi:type="xsd:string" xsi:nil="true" />
+            <tmpPtnRequiredInd href="#id48" />
+        </multiRef>
+        <multiRef xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id16" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="xsd:byte">67</multiRef>
+        <multiRef xmlns:ns18="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id20" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns18:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">UNVMEX</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns18:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns18:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns18:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns18:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns18:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns18:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns18:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns18:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns19="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id22" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns19:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">UNVCAN</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns19:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns19:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns19:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns19:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns19:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns19:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns19:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns19:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns20="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id21" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns20:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">VOCAPI</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns20:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns20:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns20:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns20:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns20:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns20:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns20:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns20:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns21="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id33" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns21:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">CFW</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns21:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns21:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns21:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns21:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns21:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns21:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns21:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns21:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns22="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id44" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns22:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">3WC</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns22:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns22:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns22:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns22:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns22:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns22:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns22:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns22:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns23="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id24" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns23:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">SMSCPR</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns23:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns23:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns23:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns23:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns23:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns23:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns23:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns23:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns24="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id40" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns24:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">CW</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns24:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns24:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns24:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns24:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns24:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns24:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns24:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns24:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id47" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="xsd:byte">82</multiRef>
+        <multiRef xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id48" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="xsd:byte">89</multiRef>
+        <multiRef xmlns:ns25="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id37" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns25:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">UNSINT</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns25:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns25:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns25:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns25:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns25:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns25:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns25:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns25:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns26="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id42" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns26:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">MMS</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns26:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns26:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns26:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns26:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns26:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns26:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns26:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns26:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns27="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id41" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns27:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">CLIP</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns27:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns27:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns27:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns27:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns27:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns27:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns27:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns27:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns28="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id23" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns28:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">UNMCAN</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns28:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns28:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns28:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns28:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns28:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns28:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns28:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns28:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns29="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id28" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns29:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">RMVUNL</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns29:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns29:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns29:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns29:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns29:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns29:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns29:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns29:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns30="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id29" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns30:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">CFC</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns30:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns30:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns30:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns30:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns30:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns30:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns30:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns30:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns31="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id26" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns31:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">RMSUNL</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns31:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns31:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns31:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns31:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns31:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns31:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns31:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns31:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns32="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id19" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns32:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">OCS</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns32:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns32:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns32:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns32:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns32:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns32:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns32:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns32:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns33="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id27" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns33:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">MMSRM</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns33:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns33:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns33:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns33:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns33:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns33:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns33:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns33:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns34="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id38" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns34:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">VMCAPD</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns34:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns34:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns34:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns34:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns34:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns34:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns34:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns34:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns35="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id45" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns35:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">DAT50</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns35:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns35:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns35:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns35:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns35:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns35:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns35:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns35:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns36="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id35" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns36:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">UNMMEX</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns36:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns36:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns36:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns36:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns36:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns36:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns36:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns36:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns37="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id43" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns37:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">STD</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns37:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns37:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns37:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns37:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns37:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns37:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns37:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns37:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns38="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id30" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns38:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">VOCAPD</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns38:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns38:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns38:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns38:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns38:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns38:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns38:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns38:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns39="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id31" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns39:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">SMSCPD</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns39:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns39:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns39:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns39:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns39:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns39:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns39:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns39:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns40="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id25" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns40:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">VOCAPR</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns40:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns40:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns40:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns40:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns40:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns40:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns40:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns40:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns41="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id18" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns41:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">APNNDO</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns41:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns41:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns41:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns41:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns41:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns41:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns41:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns41:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns42="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id39" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns42:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">MMSCPD</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns42:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns42:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns42:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns42:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns42:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns42:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns42:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns42:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns43="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id32" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns43:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">VMC2</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns43:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns43:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns43:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns43:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns43:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns43:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns43:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns43:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns44="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id34" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns44:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">MMSCPI</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns44:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns44:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns44:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns44:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns44:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns44:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns44:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns44:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns45="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id46" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns45:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">SMS</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns45:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns45:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns45:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns45:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns45:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns45:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns45:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns45:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+        <multiRef xmlns:ns46="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id36" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns46:FeatureApiInfo">
+            <action xsi:type="xsd:string" xsi:nil="true" />
+            <active xsi:type="xsd:boolean" xsi:nil="true" />
+            <activeInd xsi:type="xsd:boolean" xsi:nil="true" />
+            <commonPoolInd xsi:type="xsd:byte" xsi:nil="true" />
+            <csmParamReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <description xsi:type="xsd:string" xsi:nil="true" />
+            <dupFtrAllowInd xsi:type="xsd:byte" xsi:nil="true" />
+            <effectiveDate xsi:type="xsd:string" xsi:nil="true" />
+            <expirationDate xsi:type="xsd:string" xsi:nil="true" />
+            <featureCode xsi:type="xsd:string">SMSCPI</featureCode>
+            <featureMode xsi:type="xsd:byte" xsi:nil="true" />
+            <featureServiceType xsi:type="xsd:byte" xsi:nil="true" />
+            <featureSubMode xsi:type="xsd:byte" xsi:nil="true" />
+            <fmType xsi:type="xsd:byte" xsi:nil="true" />
+            <ftrParamInd xsi:type="xsd:byte" xsi:nil="true" />
+            <isMemo xsi:type="xsd:boolean" xsi:nil="true" />
+            <m2HType xsi:type="xsd:byte" xsi:nil="true" />
+            <memo xsi:type="xsd:boolean" xsi:nil="true" />
+            <mmbInfo xsi:type="ns46:MmbInfo" xsi:nil="true" />
+            <mpsFeatureCode xsi:type="xsd:string" xsi:nil="true" />
+            <msisdn xsi:type="xsd:string" xsi:nil="true" />
+            <msisdnInd xsi:type="xsd:byte" xsi:nil="true" />
+            <npaNxx xsi:type="xsd:string" xsi:nil="true" />
+            <npaNxxInfo xsi:type="ns46:NpaNxxInfo" xsi:nil="true" />
+            <pamAddress xsi:type="xsd:string" xsi:nil="true" />
+            <paramDataInfo xsi:type="ns46:ParamDataInfo" xsi:nil="true" />
+            <paramDataInfoSys xsi:type="ns46:ParamDataInfoSys" xsi:nil="true" />
+            <paramInfo xsi:type="ns46:ParamInfo" xsi:nil="true" />
+            <parameter xsi:type="xsd:string" xsi:nil="true" />
+            <pricePlanSocCode xsi:type="xsd:string" xsi:nil="true" />
+            <productType xsi:type="xsd:byte" xsi:nil="true" />
+            <ptnInfo xsi:type="ns46:PtnInfo" xsi:nil="true" />
+            <pttAddress xsi:type="xsd:string" xsi:nil="true" />
+            <pttInd xsi:type="xsd:byte" xsi:nil="true" />
+            <pttReqInd xsi:type="xsd:byte" xsi:nil="true" />
+            <reletedGroupFtr xsi:type="xsd:string" xsi:nil="true" />
+            <serviceFtrSeqNo xsi:type="xsd:double" xsi:nil="true" />
+            <serviceLevel xsi:type="xsd:byte" xsi:nil="true" />
+            <serviceType xsi:type="xsd:byte" xsi:nil="true" />
+            <socSequenceNumber xsi:type="xsd:double" xsi:nil="true" />
+            <specialRatedPtnInfo xsi:type="ns46:SpecialRatedPtnInfo" xsi:nil="true" />
+            <srvMode xsi:type="xsd:string" xsi:nil="true" />
+            <staticIpInfo xsi:type="ns46:StaticIpInfo" xsi:nil="true" />
+            <switchCode xsi:type="xsd:string" xsi:nil="true" />
+            <switchParam xsi:type="xsd:string" xsi:nil="true" />
+        </multiRef>
+    </soapenv:Body>
+</soapenv:Envelope>
