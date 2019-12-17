@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:getPendingOrderInfo xmlns:ns1="http://ws.interfaces.sessions.APILink.amdocs" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <in0 href="#id0" />
+         <in1 href="#id1" />
+         <header href="#id2" />
+      </ns1:getPendingOrderInfo>
+      <multiRef xmlns:ns2="http://v1.CommonHeader.awsi.amdocs.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id2" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:CommonHeader">
+         <applicationContext xsi:type="ns2:CHApplicationContext" xsi:nil="true" />
+         <callback xsi:type="ns2:CHCallback" xsi:nil="true" />
+         <conversation xsi:type="ns2:CHConversation" xsi:nil="true" />
+         <credentials href="#id3" />
+         <exception xsi:type="ns2:CHException" xsi:nil="true" />
+         <messageContext xsi:type="ns2:CHMessageContext" xsi:nil="true" />
+         <simulated xsi:type="xsd:boolean" xsi:nil="true" />
+         <txContext xsi:type="ns2:CHTxContext" xsi:nil="true" />
+      </multiRef>
+      <multiRef xmlns:ns3="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id0" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns3:BanInfo">
+         <additionalImsi xsi:type="xsd:string" xsi:nil="true" />
+         <banId href="#id4" />
+         <enrollmentSub xsi:type="xsd:boolean" xsi:nil="true" />
+         <equipmentId xsi:type="xsd:string" xsi:nil="true" />
+         <hppttId xsi:type="xsd:string" xsi:nil="true" />
+         <imsi xsi:type="xsd:string" xsi:nil="true" />
+         <ip xsi:type="xsd:string" xsi:nil="true" />
+         <msoInfo xsi:type="ns3:MSOInfo" xsi:nil="true" />
+         <nai xsi:type="xsd:string" xsi:nil="true" />
+         <numOfActiveSubs xsi:type="xsd:int" xsi:nil="true" />
+         <numOfSuspendedSubs xsi:type="xsd:int" xsi:nil="true" />
+         <ptn xsi:type="xsd:string" xsi:nil="true" />
+         <subId xsi:type="xsd:string" xsi:nil="true" />
+         <timeStampInfo xsi:type="ns3:TimeStampInfo" xsi:nil="true" />
+         <ufmi xsi:type="xsd:string" xsi:nil="true" />
+      </multiRef>
+      <multiRef xmlns:ns4="http://datatypes.APILink.amdocs" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id1" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns4:ApplicationDataInfo">
+         <aplicationID xsi:type="xsd:string" xsi:nil="true" />
+         <applicationID xsi:type="xsd:string">PORTAL</applicationID>
+         <applicationTxnID xsi:type="xsd:string" xsi:nil="true" />
+         <applicationUser xsi:type="xsd:string" xsi:nil="true" />
+         <associateId xsi:type="xsd:string" xsi:nil="true" />
+         <storeId xsi:type="xsd:string" xsi:nil="true" />
+         <userID xsi:type="xsd:string" xsi:nil="true" />
+      </multiRef>
+      <multiRef xmlns:ns5="http://v1.CommonHeader.awsi.amdocs.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id3" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns5:CHCredentials">
+         <password xsi:type="xsd:string">unix11</password>
+         <ticket xsi:type="xsd:string" xsi:nil="true" />
+         <userName xsi:type="xsd:string">64440008</userName>
+      </multiRef>
+      <multiRef xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id4" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="xsd:int">648950035</multiRef>
+   </soapenv:Body>
+</soapenv:Envelope>
